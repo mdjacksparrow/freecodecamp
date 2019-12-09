@@ -1,0 +1,108 @@
+header{
+ position: fixed;
+ top: 0;
+ min-width: 100%;
+ background: white;
+ z-index: 1;
+}
+
+img{
+ /* width: 100px; */
+ height: 50px;
+}
+
+a{
+ color: black;
+ font-family: monospace;
+ font-size: 1.5em;
+}
+
+a:hover{
+ color: grey;
+}
+
+.head{
+ font-size: 1.5em;
+}
+
+.nav-link{
+ font-size: 1.3em;
+}
+
+form{
+ margin-top: 8em;
+}
+input[type = "email"]{
+ padding-left: 1em;
+ width: 18em;
+}
+
+form .btn-warning{
+ background: rgb(236, 182, 34);;
+ border-radius: 0;
+ width: 10em;
+ height: 2em;
+ color: black;
+ font-weight: bolder;
+ outline: none;
+ border: none;
+ text-transform: uppercase;
+
+}
+
+.fa-fire{
+  /* border: 1px solid black; */
+ font-size: 3em;
+ color: rgb(231, 147, 37);
+ padding: .3em;
+ padding-right: 1.55em;
+ width: 1.6em;
+ text-align: center;
+}
+.fa-truck,.fa-battery-full{
+ /* border: 1px solid black; */
+ font-size: 3em;
+ color: rgb(231, 147, 37);
+ padding: .3em;
+ width: 2em;
+ text-align: center;
+}
+
+.section{
+ /* border: 1px solid black; */
+ display: flex;
+ padding: 1em 0;
+}
+
+iframe{
+ width: 540px;
+ height: 100px; 
+}
+
+.card-container{
+ /* margin: 1em; */
+}
+
+.card{
+ /* width: 100px; */
+ border: 1px solid black;
+ border-radius: 3px;
+}
+
+.card-footer button{
+ background: rgb(236, 182, 34);;
+ border-radius: 0;
+ width: 6em;
+ /* height: 2em; */
+ color: black;
+ font-weight: bolder;
+ outline: none;
+ border: none;
+ text-transform: uppercase;
+}
+
+@media only screen and (max-width : 600px){
+ .card-container{
+  margin:4em;
+ }
+}
