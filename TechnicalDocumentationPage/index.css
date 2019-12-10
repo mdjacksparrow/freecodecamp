@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Alata|Alatsi&display=swap');
+
+/* font-family: 'Alata', sans-serif; */
+
+body{
+ display: flex;
+}
+
+.navbar{
+ overflow-y:scroll;
+ /* position: fixed; */
+ height: 100vh;
+}
+
+
+header{
+ font-size: 2em;
+ font-weight: bold;
+  font-family: 'Alatsi', sans-serif;
+  padding: 1em 0;
+}
+
+p{
+ font-size: 1.2em;
+ line-height: 1.4em;
+ font-family: 'Alata', sans-serif;
+ color: rgb(82, 78, 78);
+ word-spacing: 2px;
+}
+
+ul li{
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Alata', sans-serif;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  font-style: italic;
+}
+
+code{
+ padding: 1em 0;
+ display: block;
+ /* text-align: center; */
+ padding-left: 2em;
+}
+
+
