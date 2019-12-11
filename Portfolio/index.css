@@ -1,0 +1,102 @@
+nav{
+  background-color: rgb(238, 82, 54);
+  height: 3em;
+}
+
+body{
+ background-color: rgb(56, 160, 163);
+}
+
+ul{
+ display: flex;
+ position: absolute;
+ right: 0;
+ /* top: 0; */
+ /* border: 1px solid black; */
+}
+
+ul li{
+ display: inline-block;
+ list-style: none;
+ color: white;
+ /* padding: 3em 0; */
+}
+
+ul li a{
+ text-decoration: none;
+ color: white;
+ font-size: 1.4em;
+ /* border: 1px solid black; */
+ margin-left: 10px;
+}
+
+ul li a:hover{
+ color: grey;
+}
+
+#welcome-section h1{
+ /* border: 1px solid white; */
+ padding-top: 25%;
+ font-size: 3em;
+}
+
+#welcome-section p{
+ color: tomato;
+ font-size: 1.2em;
+ font-style: italic;
+ font-weight: lighter;
+}
+
+.card{
+ padding:0.3em;
+}
+
+.card-footer{
+ /* border: 1px solid black; */
+ width: 100%;
+}
+
+.card-footer a{
+ display: block;
+ margin: auto;
+}
+
+img{
+ /* height: 300px; */
+ width: 80%;
+ margin: auto;
+}
+
+.icons{
+ margin: auto;
+ /* border: 1px solid white; */
+ /* display: flex; */
+ padding: 0.5em 0;
+}
+.icons a{
+ color: white;
+ padding:.4em 1em;
+ font-size: 1.4em;
+ text-decoration: none;
+}
+
+.icons a:hover{
+ color: tomato;
+}
+
+@media screen and (max-width: 600px){
+
+ #welcome-section h1{
+ /* border: 1px solid white; */
+ padding-top: 40%;
+ font-size: 3em;
+}
+
+ ul li a{
+  font-size: 1em;
+ }
+}
+
+footer{
+ border-top: 2px solid brown;
+}
